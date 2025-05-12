@@ -65,7 +65,7 @@ tasks.register("zipReleaseDistributable") {
         val version = project.version.toString()
         val outputDir = File(buildDir, "release/main-release/app")
         val sourceDir = File(outputDir, "automatic-signature")
-        val zipFile = File(project.file("release"), "automatic-signature-$version.zip")
+        val zipFile = File(project.file("release").apply { mkdirs() }, "automatic-signature-$version.zip")
 
         // 删除旧 zip 文件
         if (zipFile.exists()) {
