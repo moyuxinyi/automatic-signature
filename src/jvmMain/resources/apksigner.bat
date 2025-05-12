@@ -3,7 +3,7 @@ setlocal
 REM === 精简版的签名脚本 ===
 REM 脚本改自于Android SDK 35
 
-REM === 杨耿雷 ===
+REM === 新一 ===
 REM 2025-05-08 11:23
 
 REM ==== 查找 Java ====

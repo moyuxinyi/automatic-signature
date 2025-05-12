@@ -27,7 +27,7 @@ import java.io.File
 /**
  * 签名工具主界面的Ui结构
  *
- * @author 杨耿雷
+ * @author 新一
  * @since 2025/5/7 15:12
  */
 @Composable

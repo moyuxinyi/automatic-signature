@@ -18,7 +18,7 @@ import androidx.compose.ui.draw.clip
 /**
  * 将签名配置ui显示的这一块的内容提出来
  *
- * @author 杨耿雷
+ * @author 新一
  * @since 2025/5/8 14:42
  */
 @Composable

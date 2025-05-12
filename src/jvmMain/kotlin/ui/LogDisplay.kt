@@ -17,7 +17,7 @@ import androidx.compose.ui.text.font.FontFamily
 /**
  * 日志区域
  *
- * @author 杨耿雷
+ * @author 新一
  * @since 2025/5/8 11:39
  */
 @Composable

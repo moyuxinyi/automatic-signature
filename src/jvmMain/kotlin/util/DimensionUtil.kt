@@ -8,7 +8,7 @@ import java.awt.Toolkit
 /**
  * 封装用于处理不同单位之间的转换，支持从像素（px）、dp、毫米（mm）、英寸（inches）等单位之间的转换。
  *
- * @author 杨耿雷
+ * @author 新一
  * @since 2025/5/9 13:42
  */
 

@@ -12,7 +12,7 @@ package config
  * @property alignedDir 对齐后 APK 的输出目录。
  * @property signedDir 签名后 APK 的输出目录。
  *
- * @author 杨耿雷
+ * @author 新一
  * @since 2025/5/7 19:27
  */
 data class SignConfig(

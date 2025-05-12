@@ -12,7 +12,7 @@ import java.io.File
  * @param config 签名配置
  * @param log 日志
  *
- * @author 杨耿雷
+ * @author 新一
  * @since 2025/5/8 13:32
  */
 fun signApk(apkFile: File?, config: SignConfig, logState: MutableState<List<String>>) {
