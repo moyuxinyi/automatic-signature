@@ -37,6 +37,10 @@ fun loadConfig(): SignConfig {
     // 输出目录（aligned、signed 的绝对路径）
     val buildDirs = getOutputDirs()
 
+    // apksigner签名脚本jar依赖文件
+    val apksignerJarFile = File(configDir, "apksigner.jar")
+    copyFromResourceIfMissing(apksignerJarFile.name, apksignerJarFile)
+
     // 读取配置文件（若存在），否则生成默认配置
     val signConfig = readSignConfig(configFile, buildDirs) ?: run {
         // zipalign 对齐工具
